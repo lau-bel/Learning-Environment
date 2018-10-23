@@ -1,7 +1,28 @@
-p
 
+.wrap
 {
+  width : 1000px;
+  margin : auto;
+  border: 20px solid;
+  border-radius: 20px;
+  padding: 20px;
+}
 
+p
+{
+   font-family : 'K2D', sans-serif;
     color: blue;
+}
+.font-h1
+{
+  font-family: 'Lobster', cursive;
+  font-size : 60px ;
+  text-align : center;
+}
 
+.font-h2
+{
+  font-family: 'Kodchasan', cursive;
+  font-size : 40px ;
+  text-align : left;
 }
