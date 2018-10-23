@@ -1,3 +1,12 @@
+p
+{
+   font-family : 'K2D', sans-serif;
+    color: white;
+}
+body
+ {
+  background-color: #2A0238;
+}
 
 .wrap
 {
@@ -6,18 +15,15 @@
   border: 20px solid;
   border-radius: 20px;
   padding: 20px;
+  color : #9B73A9;
 }
 
-p
-{
-   font-family : 'K2D', sans-serif;
-    color: blue;
-}
 .font-h1
 {
   font-family: 'Lobster', cursive;
-  font-size : 60px ;
+  font-size : 80px ;
   text-align : center;
+  color : #9B73A9;
 }
 
 .font-h2
@@ -25,4 +31,5 @@ p
   font-family: 'Kodchasan', cursive;
   font-size : 40px ;
   text-align : left;
+  color : #9B73A9;
 }
