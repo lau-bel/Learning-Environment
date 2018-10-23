@@ -1,13 +1,24 @@
 p
 {
    font-family : 'K2D', sans-serif;
-    color: white;
+   color: white;
 }
 body
  {
   background-color: #2A0238;
+  text-align : center;
 }
+blockquote
+{
+  background-color: #9B73A9;
+  padding : 10px;
+  width : 200px;
+  margin : auto;
+  font-family : 'K2D', sans-serif;
+  font-style: bold;
+  color: black;
 
+}
 .wrap
 {
   width : 1000px;
@@ -32,4 +43,10 @@ body
   font-size : 40px ;
   text-align : left;
   color : #9B73A9;
+}
+
+canvas
+{
+  border : 10px solid;
+  margin-left : 500px;
 }
