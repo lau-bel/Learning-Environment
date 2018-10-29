@@ -1,0 +1,170 @@
+html, body {
+  box-sizing: border-box;
+  width: 100%;
+
+}
+
+.premierePartie {
+  background-color: #FDFBF9;
+  width: 100%;
+  height: 681px;
+  position : absolute;
+  top: 0;
+}
+
+/*header*/
+#menu {
+background-color: #921F5A;
+width: 100%;
+height: 100px;
+margin-top: 50px;
+}
+
+#menu a{
+  font-family: 'Bitter', serif;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  margin-left: 120px;
+  margin-right: 100px;
+}
+
+#menu li {
+ display: inline-block ;
+}
+
+#menu ul {
+ width: 1000px;
+ margin-left: 238px;
+ position: absolute;
+ top : 79px;
+
+}
+#menu img {
+  position : absolute;
+  top : 0;
+  width: 240px;
+  margin-left: 40px;
+}
+
+/*première partie about*/
+
+h2 {
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 440px;
+  font-family: 'Fascinate Inline', cursive;
+  font-size: 16px;
+  color : black;
+  width : auto;
+}
+.textabout {
+  display : flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 1200px;
+  margin-top: 100px;
+  margin-left: 40px;
+  text-align : justify;
+  align-items : center;
+}
+
+
+.textabout p {
+  font-family : 'bitter', serif;
+  font-size: 14px;
+  color : black;
+  width: 550px;
+  line-height: 19px;
+}
+
+.textabout img {
+  width: 400px;
+}
+
+/*deuxième partie equipe*/
+
+/*esthétique*/
+.deuxiemePartie {
+  background-color: #921F5A;
+  width: 100%;
+  height: 680px;
+  margin-top: 680px;
+}
+
+/*grille*/
+ .teamgrid {
+  width: 1250px;
+  height: 680px;
+  margin : auto;
+  display : grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr ;
+  grid-gap : 2px 5px;
+}
+
+.titleteam h1 {
+  font-family:'Fascinate Inline', cursive;
+  font-size : 140px;
+  color : black;
+  text-align : center;
+  text-decoration: underline;
+  grid-column: 1 / 4;
+  grid-row : 1;
+  background-color : red;
+
+}
+
+
+.womanOne {
+width: 200px;
+grid-column: 1;
+grid-row: 2;
+clip-path: polygon(50% 25%, 0% 100%, 100% 100%);
+background-color : purple;
+
+}
+
+.womanTwo {
+width: 200px;
+clip-path : triangle;
+grid-column: 2;
+grid-row: 2;
+clip-path: polygon(50% 25%, 0% 100%, 100% 100%);
+background-color : pink;
+}
+
+.womanThree {
+width: 200px;
+grid-column: 3;
+grid-row: 2;
+clip-path: polygon(50% 25%, 0% 100%, 100% 100%);
+background-color : green;
+}
+
+.description{
+  font-family : 'bitter', serif;
+  font-size: 14px;
+  color : black;
+  grid-column: 1/4;
+  grid-row: 3;
+
+}
+
+/*troisieme partie français*/
+.troisiemePartie {
+  background-color: #FDFBF9;
+  width: 100%;
+  height: 681px;
+  margin-top : 0;
+  padding-top: 20px;
+}
+.troisiemePartie h1 {
+  font-family:'Fascinate Inline', cursive;
+  font-size : 60px;
+  color : #921F5A;
+  text-align : center;
+  margin-top : 0;
+
+
+}
